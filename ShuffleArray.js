@@ -1,4 +1,6 @@
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const reversedString = str => str.split('').reverse().join('');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+var arr2 = arr1.reverse();
+const isEmptyArray = arr => !arr.length;
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
