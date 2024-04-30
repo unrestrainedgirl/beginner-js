@@ -1,1 +1,2 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const merge = (a, b) => a.concat(b);
+const isArray = (arr) => Array.isArray(arr);
