@@ -1,3 +1,3 @@
-const minNumber = arr => Math.min(...arr);
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const channel = getChannel(computedAppVersion);
+var c = new Counter(); c.add(); c.add(); c.add();
