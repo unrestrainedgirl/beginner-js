@@ -1,2 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const executableName = getExecutableName(channel, appName);
+console.log(false === '0');
+const randomString = () => Math.random().toString(36).slice(2);
