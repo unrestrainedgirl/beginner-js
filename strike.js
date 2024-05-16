@@ -1,3 +1,1 @@
-const executableName = getExecutableName(channel, appName);
-console.log(false === '0');
-const randomString = () => Math.random().toString(36).slice(2);
+const getRandomBoolean = () => Math.random() >= 0.5;
