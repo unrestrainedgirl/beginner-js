@@ -1,1 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const isTabInView = () => !document.hidden;
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
