@@ -1,2 +1,2 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const goToTop = () => window.scrollTo(0, 0);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const lastElement = arr => arr[arr.length - 1];
