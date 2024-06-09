@@ -1,3 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
