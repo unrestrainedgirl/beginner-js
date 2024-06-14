@@ -1,2 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const lastElement = arr => arr[arr.length - 1];
+const merge = [...new Set([...a, ...b])];
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+console.log("0 && 1 = "+(0 && 1));
