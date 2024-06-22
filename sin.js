@@ -1,3 +1,3 @@
-const executableName = getExecutableName(channel, appName);
-const uniqueArr = (arr) => [...new Set(arr)];
-const isEven = (num) => num % 2 === 0;
+const goToTop = () => window.scrollTo(0, 0);
+const channelName = getChannelName(channel);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
