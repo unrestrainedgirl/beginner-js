@@ -1,2 +1,2 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const toggleBool = () => (bool = !bool);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
