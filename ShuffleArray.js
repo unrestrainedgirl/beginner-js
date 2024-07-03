@@ -1,2 +1,3 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+function myAPITS(someString: string, someNum: number) { ... };
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+console.log(1 +  "2" + "2");
