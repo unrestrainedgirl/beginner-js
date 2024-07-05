@@ -1,2 +1,2 @@
-console.log(false === '0');
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const merge = [...new Set([...a, ...b])];
