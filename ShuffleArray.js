@@ -1,2 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-console.log(1 +  "2" + "2");
+const maxNumber = arr => Math.max(...arr);
+const lastElement = arr => arr[arr.length - 1];
+const minNumber = arr => Math.min(...arr);
