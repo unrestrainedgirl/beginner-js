@@ -1,3 +1,3 @@
-const maxNumber = arr => Math.max(...arr);
-const lastElement = arr => arr[arr.length - 1];
-const minNumber = arr => Math.min(...arr);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const merge = (a, b) => [...a, ...b];
