@@ -1,3 +1,3 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const isArray = (arr) => Array.isArray(arr);
