@@ -1,3 +1,1 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const isArray = (arr) => Array.isArray(arr);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
