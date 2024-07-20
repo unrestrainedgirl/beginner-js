@@ -1,2 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-console.log(1 +  -"1" + "2");
+var c = new Counter(); c.add(); c.add(); c.add();
+const merge = [...new Set(a.concat(b))];
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
