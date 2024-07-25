@@ -1,3 +1,3 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-var arr1 = "john".split('');
+const isEmptyArray = arr => !arr.length;
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
