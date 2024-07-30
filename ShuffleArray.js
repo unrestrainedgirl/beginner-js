@@ -1,2 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const allResults = await Promise.all(items.map(async (item) => {}));
+const isEven = (num) => num % 2 === 0;
+var arr1 = "john".split('');
+const isWeekday = (date) => date.getDay() % 6 !== 0;
