@@ -1,1 +1,3 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const merge = (a, b) => [...a, ...b];
